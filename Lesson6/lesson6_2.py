@@ -112,7 +112,7 @@ with open("big_text.txt", mode="r", buffering=5) as file:
 
 file = open("big_text.txt", mode="r", errors="stict")
 
-stricts == ValueErrorException
+# stricts == ValueErrorException
 
 file = open("big_text.txt", mode="r", newline=None)
 print(file.read())
