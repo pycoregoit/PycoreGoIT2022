@@ -3,7 +3,7 @@
 
 from urllib.request import urlopen
 
-# page = urlopen("https://www.google.com.ua/")
+page = urlopen("https://www.google.com.ua/")
 page = urlopen("https://www.apple.com/")
 
 content = page.read()
@@ -48,7 +48,7 @@ print("point x ", point.x)
 print("point y ", point.y)
 print("point inx ", point[0])
 
-generator expression
+# generator expression
 Point = namedtuple("Point", (field for field in ["apple", "orange"] ))
 print(Point(2, 5))
 
