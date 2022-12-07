@@ -1,0 +1,14 @@
+[project]
+author = "Vasyl"
+name = "mypackage-project-toml"
+url = "https://my.site"
+
+[build-system]
+build-backend = "setuptools.build_meta"
+requires = ["setuptools", "wheel"]
+
+[project.scripts]
+my-application = "mypackage.mymodule:greeting"
+another-application = "mypackage.mymodule:say_good_bye"
+
+
